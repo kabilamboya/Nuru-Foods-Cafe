@@ -9,7 +9,8 @@ body {
 
 /* Style the header */
 .header {
-  color: #51575E;
+  font-size: 1.5em;
+  color: rgb(0, 3, 7);
   background-color: #EDF6E9;
   padding: 20px;
   text-align: center;
@@ -75,6 +76,35 @@ body {
   clear: both;
 }
 
+/* Style the footer */
+.footer {
+  color: rgb(0, 3, 7);
+  background-color: #EDF6E9;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+/* Style the top navigation bar */
+.footernav {
+  overflow: hidden;
+  background-color: #0D2F4A;
+}
+
+/* Style the topnav links */
+.footernav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+/* Change color on hover */
+.footernav a:hover {
+  background-color: #F1F0EB;
+  color: #000000;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other
 @media screen and (max-width: 100px) {
   .column.side, .column.middle {
